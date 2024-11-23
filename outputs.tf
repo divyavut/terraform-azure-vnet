@@ -10,4 +10,3 @@ output "private_subnet_id" {
 output "database_subnet_id" {
   value = azurerm_subnet.database.id
 }
-
